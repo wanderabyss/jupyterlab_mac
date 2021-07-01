@@ -2,7 +2,7 @@
 
 OSX version includes Seaborn, Tensorboard, Tabulate.
 
-Build: docker build -t wanderabyss/jupyter_lab_git:latest .
+Build: docker build -t wanderabyss/jupyterlab_osx:latest .
 
 Run: docker-compose up
 
