@@ -1,0 +1,11 @@
+web: 
+    image: 'wanderabyss/jupyter_lab:latest'
+    restart: always
+    container_name: lab_web
+    ports:
+      - "8888:8888"
+      - "6006:6006"
+
+    volumes:
+        - ${HOME}/Documents/Python/:/home/Python/
+    working_dir: /home/Python
