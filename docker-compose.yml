@@ -1,5 +1,5 @@
 web: 
-    image: 'wanderabyss/jupyter_lab:latest'
+    image: 'wanderabyss/jupyterlab_osx:latest'
     restart: always
     container_name: lab_web
     ports:
